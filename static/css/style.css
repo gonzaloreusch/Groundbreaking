@@ -36,10 +36,6 @@ body {
 	background-color: rgba(222, 184, 135, .5);
 }
 
-.navbutt:visited {
-	background-color: rgba(222, 184, 135, .5);
-}
-
 .viewer {
 	display: none;
 	width: 100%;
@@ -47,7 +43,7 @@ body {
 	background-color: rgba(222, 184, 135, .5);
 }
 
-/* #mapview { */
-	/* display: block; */
+#mapview {
+	display: block;
 
-/* } */
+}

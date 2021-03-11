@@ -1,0 +1,11 @@
+time,latitude,longitude,depth,mag,magType,nst,gap,dmin,rms,net,id,updated,place,type,horizontalError,depthError,magError,magNst,status,locationSource,magSource
+2000-11-03T20:58:47.020Z,19.1826667,-155.4643333,33.726,2.76,ml,36,222,,0.1,hv,hv1299154,2020-03-31T19:24:30.620Z,"Hawaii region, Hawaii",earthquake,0.57,0.64,0.07,18,reviewed,hv,hv
+2000-10-29T20:58:14.800Z,19.3656667,-155.2878333,29.282,2.52,ml,40,42,,0.12,hv,hv1298764,2020-03-31T19:24:27.990Z,"Hawaii region, Hawaii",earthquake,0.52,0.6,0.17,21,reviewed,hv,hv
+2000-10-25T07:26:43.530Z,19.3906667,-155.2768333,2.009,2.53,ml,31,52,,0.11,hv,hv1298469,2020-03-31T19:24:23.270Z,"Hawaii region, Hawaii",earthquake,0.25,0.2,0.13,11,reviewed,hv,hv
+2000-10-22T23:24:32.720Z,19.489,-155.3265,12.363,2.91,ml,41,54,,0.13,hv,hv1298306,2020-03-31T19:24:21.270Z,"Hawaii region, Hawaii",earthquake,0.37,0.26,0.07,11,reviewed,hv,hv
+2000-10-22T00:25:26.670Z,19.3533333,-155.0795,7.831,3.19,ml,35,150,,0.11,hv,hv1298257,2020-03-31T19:24:20.430Z,"Hawaii region, Hawaii",earthquake,0.51,0.43,0.08,11,reviewed,hv,hv
+2000-10-07T11:08:32.470Z,19.4145,-155.6406667,-0.62,2.72,ml,29,149,,0.12,hv,hv1297279,2020-03-31T19:24:10.360Z,"Hawaii region, Hawaii",earthquake,0.4,0.36,0.15,17,reviewed,hv,hv
+2000-09-04T05:06:21.640Z,19.212,-155.4863333,7.423,2.85,ml,42,101,,0.19,hv,hv1294866,2020-03-31T20:38:24.320Z,"Hawaii region, Hawaii",earthquake,0.52,0.67,0.12,12,reviewed,hv,hv
+2000-08-20T11:47:45.470Z,19.0833333,-155.4891667,29.9,2.91,ml,35,180,,0.09,hv,hv1293895,2020-03-31T20:36:30.240Z,"Hawaii region, Hawaii",earthquake,0.72,1,0.08,10,reviewed,hv,hv
+2000-08-20T09:37:38.250Z,19.3893333,-155.242,2.382,2.76,ml,28,81,,0.11,hv,hv1293887,2020-03-31T20:36:30.060Z,"Hawaii region, Hawaii",earthquake,0.25,0.31,0.1,5,reviewed,hv,hv
+2000-08-07T05:00:51.780Z,19.545,-155.1673333,20.515,3.11,ml,15,246,,0.12,hv,hv1293018,2020-03-31T20:35:37.520Z,"Hawaii region, Hawaii",earthquake,1.88,2.17,0.12,5,reviewed,hv,hv

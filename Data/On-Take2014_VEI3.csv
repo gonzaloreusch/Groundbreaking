@@ -1,0 +1,2 @@
+time,latitude,longitude,depth,mag,magType,nst,gap,dmin,rms,net,id,updated,place,type,horizontalError,depthError,magError,magNst,status,locationSource,magSource
+2014-07-21T15:58:02.980Z,35.9561,137.8883,10,4.7,mb,,99,0.639,0.42,us,usb000rz5l,2014-10-17T21:12:13.000Z,"10km WSW of Tatsuno, Japan",earthquake,,1.9,0.274,9,reviewed,us,us

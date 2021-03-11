@@ -1,0 +1,6 @@
+time,latitude,longitude,depth,mag,magType,nst,gap,dmin,rms,net,id,updated,place,type,horizontalError,depthError,magError,magNst,status,locationSource,magSource
+2009-11-24T21:31:41.580Z,19.1871667,-155.4721667,32.916,2.8,ml,45,90,,0.08,hv,hv60121876,2020-07-06T20:19:56.790Z,"1 km SSE of Pāhala, Hawaii",earthquake,0.48,0.87,0.193,21,reviewed,hv,hv
+2009-11-20T07:34:31.430Z,19.316,-154.9856667,40.322,2.85,ml,48,227,,0.1,hv,hv60121121,2020-07-06T20:20:35.800Z,"18 km SSW of Leilani Estates, Hawaii",earthquake,0.89,0.66,0.172,25,reviewed,hv,hv
+2009-11-09T22:35:23.990Z,19.3303333,-155.1238333,7.6,2.59,ml,44,130,,0.11,hv,hv60119601,2020-07-06T20:20:17.340Z,"15 km S of Fern Forest, Hawaii",earthquake,0.42,0.38,0.141,42,reviewed,hv,hv
+2009-11-02T22:44:52.160Z,19.3446667,-155.1043333,8.19,2.66,ml,46,144,,0.1,hv,hv60118421,2020-07-06T20:20:35.210Z,"13 km SSE of Fern Forest, Hawaii",earthquake,0.42,0.37,0.145,32,reviewed,hv,hv
+2009-10-31T06:02:33.050Z,19.2773333,-155.2126667,10.318,2.8,ml,43,174,,0.11,hv,hv60117941,2020-07-06T20:20:28.570Z,"18 km S of Volcano, Hawaii",earthquake,0.51,0.3,0.167,29,reviewed,hv,hv

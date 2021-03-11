@@ -1,0 +1,21 @@
+time,latitude,longitude,depth,mag,magType,nst,gap,dmin,rms,net,id,updated,place,type,horizontalError,depthError,magError,magNst,status,locationSource,magSource
+2002-01-22T16:51:00.380Z,-1.461,29.249,10,4.2,mb,8,,,1.28,us,usp000awzd,2014-11-07T01:14:44.646Z,"Lac Kivu region, Congo-Rwanda-Uganda",earthquake,,,,4,reviewed,us,us
+2002-01-22T16:22:22.340Z,-1.551,28.995,10,4.4,mb,11,,,1.04,us,usp000awzb,2014-11-07T01:14:44.643Z,"Lac Kivu region, Democratic Republic of the Congo",earthquake,,,,4,reviewed,us,us
+2002-01-22T15:32:05.590Z,-1.515,28.993,10,5.2,mwc,58,,,1.05,us,usp000awz7,2020-09-18T18:42:33.129Z,"Lac Kivu region, Democratic Republic of the Congo",earthquake,,,,,reviewed,us,hrv
+2002-01-22T02:01:01.340Z,-1.746,29.095,10,3.9,mb,10,,,1.18,us,usp000awy4,2014-11-07T01:14:43.993Z,"Lac Kivu region, Congo-Rwanda-Uganda",earthquake,,,,3,reviewed,us,us
+2002-01-22T01:02:32.250Z,-1.787,28.971,10,4,mb,5,,,0.33,us,usp000awxz,2014-11-07T01:14:43.982Z,"Lac Kivu region, Democratic Republic of the Congo",earthquake,,,,3,reviewed,us,us
+2002-01-21T10:55:03.720Z,-1.903,29.117,10,4.7,mb,36,,,1,us,usp000awwk,2020-09-18T18:42:05.743Z,"Lac Kivu region, Congo-Rwanda-Uganda",earthquake,,,,10,reviewed,us,us
+2002-01-21T04:39:21.620Z,-1.776,29.041,10,5.1,mwc,97,,,0.97,us,usp000aww9,2020-09-18T18:41:58.189Z,"Lac Kivu region, Congo-Rwanda-Uganda",earthquake,,,,,reviewed,us,hrv
+2002-01-21T02:00:14.000Z,-1.505,28.941,10,4.2,mb,11,,,1.41,us,usp000aww2,2014-11-07T01:14:43.754Z,"Lac Kivu region, Democratic Republic of the Congo",earthquake,,,,3,reviewed,us,us
+2002-01-21T01:19:32.600Z,-1.726,28.854,10,4.6,mb,40,,,1.28,us,usp000awvx,2020-09-18T18:41:50.742Z,"Lac Kivu region, Democratic Republic of the Congo",earthquake,,,,18,reviewed,us,us
+2002-01-20T23:31:45.480Z,-1.726,29.168,10,3.8,mb,4,,,1.14,us,usp000awvr,2014-11-07T01:14:43.725Z,"Lac Kivu region, Congo-Rwanda-Uganda",earthquake,,,,2,reviewed,us,us
+2002-01-20T23:28:17.470Z,-1.599,29.05,10,4.2,mb,12,,,1.33,us,usp000awvq,2014-11-07T01:14:43.723Z,"Lac Kivu region, Congo-Rwanda-Uganda",earthquake,,,,4,reviewed,us,us
+2002-01-20T05:17:19.580Z,-1.641,29.042,10,3.9,mb,6,,,1.64,us,usp000awtx,2014-11-07T01:14:43.032Z,"Lac Kivu region, Congo-Rwanda-Uganda",earthquake,,,,2,reviewed,us,us
+2002-01-20T00:14:44.390Z,-1.681,28.981,10,5.1,mwc,77,,,0.97,us,usp000awtc,2020-09-18T18:41:43.234Z,"Lac Kivu region, Democratic Republic of the Congo",earthquake,,,,,reviewed,us,hrv
+2002-01-19T20:38:55.550Z,-1.879,29.059,10,4.2,mb,6,,,0.89,us,usp000awsx,2014-11-07T01:14:42.948Z,"Lac Kivu region, Congo-Rwanda-Uganda",earthquake,,,,3,reviewed,us,us
+2002-01-19T04:26:20.490Z,-1.761,28.969,10,3.9,mb,5,,,1.23,us,usp000awrj,2014-11-07T01:14:42.737Z,"Lac Kivu region, Democratic Republic of the Congo",earthquake,,,,3,reviewed,us,us
+2002-01-18T21:08:53.320Z,-1.662,28.866,10,4.2,mb,5,,,1.67,us,usp000awqt,2014-11-07T01:14:42.672Z,"Lac Kivu region, Democratic Republic of the Congo",earthquake,,,,2,reviewed,us,us
+2002-01-18T15:14:02.040Z,-1.78,29.076,10,4.3,mb,7,,,1.55,us,usp000awqe,2014-11-07T01:14:42.642Z,"Lac Kivu region, Congo-Rwanda-Uganda",earthquake,,,,3,reviewed,us,us
+2002-01-18T08:07:57.370Z,-1.578,29.031,10,4.2,mb,11,,,1.33,us,usp000awpt,2014-11-07T01:14:42.507Z,"Lac Kivu region, Congo-Rwanda-Uganda",earthquake,,,,3,reviewed,us,us
+2002-01-17T20:01:29.260Z,-1.684,29.077,15.4,4.7,mb,40,,,0.95,us,usp000awns,2020-09-18T18:41:27.998Z,"Lac Kivu region, Congo-Rwanda-Uganda",earthquake,,,,23,reviewed,us,us
+2002-01-17T14:26:59.720Z,-1.629,29.152,10,4.3,mb,7,,,1.37,us,usp000awnb,2014-11-07T01:14:42.384Z,"Lac Kivu region, Congo-Rwanda-Uganda",earthquake,,,,4,reviewed,us,us

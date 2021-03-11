@@ -19,12 +19,13 @@ function tabChange(view) {
 		
 		// disable everything
 		viewers.style('display', 'none');
-		allTabs.style('background-color', 'rgb(222, 184, 135)');
+		allTabs.classed('navActive', false);
 
 		// re-enable appropriate controls
-		activeTab.style('background-color', 'rgba(222, 184, 135, .5)');
+		activeTab.classed('navActive', true);
 		activeView.style('display', 'block');
-})};
+	});
+};
 
 
 function init() {

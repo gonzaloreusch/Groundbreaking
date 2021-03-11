@@ -1,0 +1,2 @@
+time,latitude,longitude,depth,mag,magType,nst,gap,dmin,rms,net,id,updated,place,type,horizontalError,depthError,magError,magNst,status,locationSource,magSource
+2013-08-07T13:09:04.510Z,-8.3382,121.5454,185.6,4.1,mb,,92,0.745,1.49,us,usb000ixev,2013-10-12T21:32:31.000Z,"26km N of Rerawere, Indonesia",earthquake,,9.9,0.261,,reviewed,us,us

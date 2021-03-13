@@ -1,0 +1,89 @@
+	
+type	"FeatureCollection"
+metadata	
+generated	1615410395000
+url	"https://earthquake.usgs.gov/fdsnws/event/1/query.geojson?starttime=2019-09-10%2000:00:00&endtime=2019-12-10%2023:59:59&latitude=-37.52&longitude=177.18&maxradiuskm=50&minmagnitude=2.5&orderby=time"
+title	"USGS Earthquakes"
+status	200
+api	"1.10.3"
+count	2
+features	
+0	
+type	"Feature"
+properties	
+mag	5.8
+place	"69km NNE of Whakatane, New Zealand"
+time	1574526883818
+updated	1603618488664
+tz	720
+url	"https://earthquake.usgs.gov/earthquakes/eventpage/us70006c81"
+detail	"https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us70006c81&format=geojson"
+felt	11
+cdi	4.2
+mmi	4.056
+alert	"green"
+status	"reviewed"
+tsunami	0
+sig	522
+net	"us"
+code	"70006c81"
+ids	",us70006c81,"
+sources	",us,"
+types	",dyfi,geoserve,losspager,moment-tensor,origin,phase-data,shakemap,"
+nst	null
+dmin	0.857
+rms	0.91
+gap	24
+magType	"mww"
+type	"earthquake"
+title	"M 5.8 - 69km NNE of Whakatane, New Zealand"
+geometry	
+type	"Point"
+coordinates	
+0	177.2566
+1	-37.3696
+2	120.5
+id	"us70006c81"
+1	
+type	"Feature"
+properties	
+mag	4.1
+place	"28km NE of Maketu, New Zealand"
+time	1574133710748
+updated	1581717724040
+tz	720
+url	"https://earthquake.usgs.gov/earthquakes/eventpage/us700069rf"
+detail	"https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us700069rf&format=geojson"
+felt	null
+cdi	null
+mmi	null
+alert	null
+status	"reviewed"
+tsunami	0
+sig	259
+net	"us"
+code	"700069rf"
+ids	",us700069rf,"
+sources	",us,"
+types	",geoserve,origin,phase-data,"
+nst	null
+dmin	0.913
+rms	0.53
+gap	151
+magType	"mb"
+type	"earthquake"
+title	"M 4.1 - 28km NE of Maketu, New Zealand"
+geometry	
+type	"Point"
+coordinates	
+0	176.6319
+1	-37.556
+2	230.79
+id	"us700069rf"
+bbox	
+0	176.6319
+1	-37.556
+2	120.5
+3	177.2566
+4	-37.3696
+5	230.79

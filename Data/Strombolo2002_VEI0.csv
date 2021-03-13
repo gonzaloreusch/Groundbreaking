@@ -1,0 +1,3 @@
+time,latitude,longitude,depth,mag,magType,nst,gap,dmin,rms,net,id,updated,place,type,horizontalError,depthError,magError,magNst,status,locationSource,magSource
+2002-12-01T16:18:02.000Z,38.719,14.842,296.5,4.5,mb,250,,,,us,usp000bjvh,2014-11-07T01:17:16.452Z,"Sicily, Italy",earthquake,,,,71,reviewed,rom,us
+2002-11-27T11:31:37.900Z,38.431,15.26,173,2.6,md,4,,,,us,usp000bjh3,2014-11-07T01:17:11.686Z,"Sicily, Italy",earthquake,,,,,reviewed,rom,rom

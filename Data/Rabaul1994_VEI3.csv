@@ -1,0 +1,7 @@
+time,latitude,longitude,depth,mag,magType,nst,gap,dmin,rms,net,id,updated,place,type,horizontalError,depthError,magError,magNst,status,locationSource,magSource
+1994-09-18T13:23:04.940Z,-4.215,151.938,33,4.2,mb,,,,1.5,us,usp0006jng,2014-11-07T00:56:18.555Z,"New Britain region, Papua New Guinea",earthquake,,,,2,reviewed,us,us
+1994-09-18T13:06:48.930Z,-4.184,152.077,33,4.2,mb,,,,0.7,us,usp0006jnf,2014-11-07T00:56:18.554Z,"New Britain region, Papua New Guinea",earthquake,,,,2,reviewed,us,us
+1994-09-18T10:54:22.140Z,-4.295,152.242,33,4.6,mb,,,,1.6,us,usp0006jnc,2014-11-07T00:56:18.549Z,"New Britain region, Papua New Guinea",earthquake,,,,2,reviewed,us,us
+1994-09-18T10:41:45.940Z,-4.366,151.828,33,4.4,mb,,,,1,us,usp0006jnb,2014-11-07T00:56:18.547Z,"New Britain region, Papua New Guinea",earthquake,,,,1,reviewed,us,us
+1994-09-17T16:51:33.670Z,-4.166,152.429,33,4.6,ms,,,,1.7,us,usp0006jm0,2014-11-07T00:56:18.447Z,"New Britain region, Papua New Guinea",earthquake,,,,1,reviewed,us,us
+1994-08-17T07:34:53.930Z,-4.198,152.564,75.4,4.8,mb,,,,1.4,us,usp0006h1y,2014-11-07T00:56:04.786Z,"New Britain region, Papua New Guinea",earthquake,,13.5,,7,reviewed,us,us

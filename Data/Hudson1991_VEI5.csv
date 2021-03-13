@@ -1,0 +1,11 @@
+time,latitude,longitude,depth,mag,magType,nst,gap,dmin,rms,net,id,updated,place,type,horizontalError,depthError,magError,magNst,status,locationSource,magSource
+1991-08-22T00:58:40.140Z,-45.816,-72.809,10,5.1,ms,,,,1.1,us,usp0004vpr,2014-11-07T00:49:07.109Z,"Aisen, Chile",earthquake,,,,3,reviewed,us,us
+1991-08-15T12:55:36.520Z,-45.761,-72.465,10,5.1,mb,,,,1.3,us,usp0004vd6,2014-11-07T00:49:05.901Z,"Aisen, Chile",earthquake,,,,4,reviewed,us,us
+1991-08-15T11:50:03.500Z,-45.74,-72.537,10,5.1,mb,,,,1,us,usp0004vd4,2014-11-07T00:49:05.886Z,"Aisen, Chile",earthquake,,,,4,reviewed,us,us
+1991-08-15T10:58:13.990Z,-45.713,-72.557,10,5.3,mb,,,,1.5,us,usp0004vd3,2014-11-07T00:49:05.878Z,"Aisen, Chile",earthquake,,,,3,reviewed,us,us
+1991-08-15T09:46:16.110Z,-45.801,-72.611,13.2,5.4,ms,,,,1.5,us,usp0004vd1,2014-11-07T00:49:05.866Z,"Aisen, Chile",earthquake,,,,10,reviewed,us,us
+1991-08-15T08:51:21.870Z,-45.746,-72.39,10,4.9,mb,,,,1.1,us,usp0004vd0,2014-11-07T00:49:05.859Z,"Aisen, Chile",earthquake,,,,3,reviewed,us,us
+1991-08-15T08:10:17.110Z,-45.826,-72.825,10,5,mb,,,,1,us,usp0004vcy,2014-11-07T00:49:05.837Z,"Aisen, Chile",earthquake,,,,3,reviewed,us,us
+1991-08-15T02:38:15.010Z,-45.608,-72.543,10,5.2,mb,,,,1.1,us,usp0004vcb,2014-11-07T00:49:05.449Z,"Aisen, Chile",earthquake,,,,9,reviewed,us,us
+1991-08-14T09:01:05.860Z,-45.74,-72.591,10,5.1,mb,,,,1.1,us,usp0004vbc,2014-11-07T00:49:05.106Z,"Aisen, Chile",earthquake,,,,5,reviewed,us,us
+1991-08-08T18:22:29.570Z,-45.516,-72.691,33,5,mb,,,,0.8,us,usp0004v4e,2014-11-07T00:49:04.207Z,"Aisen, Chile",earthquake,,,,3,reviewed,us,us

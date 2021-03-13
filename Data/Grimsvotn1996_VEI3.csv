@@ -1,0 +1,9 @@
+time,latitude,longitude,depth,mag,magType,nst,gap,dmin,rms,net,id,updated,place,type,horizontalError,depthError,magError,magNst,status,locationSource,magSource
+1996-09-29T13:39:14.880Z,64.437,-17.761,10,4.4,mb,,,,1,us,usp0007qpu,2014-11-07T01:01:14.694Z,"Iceland",earthquake,,,,26,reviewed,us,us
+1996-09-29T13:28:56.060Z,64.391,-17.905,10,4.2,mb,,,,1.41,us,usp0007qpt,2014-11-07T01:01:14.693Z,"Iceland",earthquake,,,,6,reviewed,us,us
+1996-09-29T13:21:29.660Z,64.463,-17.866,10,4.1,mb,,,,1.22,us,usp0007qpr,2014-11-07T01:01:14.690Z,"Iceland",earthquake,,,,8,reviewed,us,us
+1996-09-29T13:18:17.640Z,64.45,-18.087,10,4,mb,,,,0.69,us,usp0007qpq,2014-11-07T01:01:14.688Z,"Iceland",earthquake,,,,5,reviewed,us,us
+1996-09-29T13:01:59.800Z,64.426,-17.929,10,4.1,mb,,,,0.86,us,usp0007qpn,2014-11-07T01:01:14.684Z,"Iceland",earthquake,,,,4,reviewed,us,us
+1996-09-29T12:47:18.170Z,64.589,-17.849,10,4.3,mb,,,,1,us,usp0007qpm,2014-11-07T01:01:14.680Z,"Iceland",earthquake,,,,26,reviewed,us,us
+1996-09-29T10:48:18.970Z,64.782,-17.566,10,5.6,mwc,,,,1.27,us,usp0007qpc,2016-11-09T23:36:10.928Z,"Iceland",earthquake,,,,,reviewed,us,hrv
+1996-07-24T01:52:17.500Z,64.263,-17.993,10,3.7,mb,,,,1.3,us,usp0007mh7,2014-11-07T01:00:50.049Z,"Iceland",earthquake,,,,6,reviewed,us,us

@@ -1,0 +1,4 @@
+time,latitude,longitude,depth,mag,magType,nst,gap,dmin,rms,net,id,updated,place,type,horizontalError,depthError,magError,magNst,status,locationSource,magSource
+1992-09-17T10:43:27.700Z,61.1367,-152.1828,2.3,2.7,ml,,,,0.38,ak,ak992bzth6v6,2020-09-14T19:44:23.193Z,"56 km W of Tyonek, Alaska",earthquake,,1.7,,,reviewed,ak,ak
+1992-09-10T17:45:16.570Z,61.4823,-151.5348,72.7,2.9,ml,,,,0.2,ak,ak992bocw77t,2020-09-14T19:44:47.481Z,"45 km NNW of Beluga, Alaska",earthquake,,1.5,,,reviewed,ak,ak
+1992-08-22T04:27:32.160Z,61.678,-152.0368,118.4,3.3,ml,,,,0.23,ak,ak992aspu5a8,2020-09-14T19:41:39.799Z,"48 km SW of Skwentna, Alaska",earthquake,,2,,,reviewed,ak,ak

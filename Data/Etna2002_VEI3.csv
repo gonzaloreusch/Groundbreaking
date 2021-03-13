@@ -1,0 +1,17 @@
+time,latitude,longitude,depth,mag,magType,nst,gap,dmin,rms,net,id,updated,place,type,horizontalError,depthError,magError,magNst,status,locationSource,magSource
+2002-08-19T15:03:23.600Z,37.697,14.967,5,2.8,md,9,,,,us,usp000ba7a,2014-11-07T01:16:17.840Z,"Sicily, Italy",earthquake,,,,,reviewed,rom,rom
+2002-08-19T14:57:59.700Z,37.721,14.963,5,2.7,md,8,,,,us,usp000ba79,2014-11-07T01:16:17.839Z,"Sicily, Italy",earthquake,,,,,reviewed,rom,rom
+2002-08-19T12:05:21.700Z,37.708,14.965,5,2.8,md,10,,,,us,usp000ba6s,2014-11-07T01:16:17.760Z,"Sicily, Italy",earthquake,,,,,reviewed,rom,rom
+2002-08-13T05:29:43.300Z,37.842,14.667,5,3.2,md,18,,,,us,usp000b9t9,2014-11-07T01:16:15.481Z,"Sicily, Italy",earthquake,,,,,reviewed,rom,rom
+2002-08-13T02:35:50.000Z,37.84,14.662,5,2.5,md,5,,,,us,usp000b9sy,2014-11-07T01:16:15.420Z,"Sicily, Italy",earthquake,,,,,reviewed,rom,rom
+2002-08-13T02:30:20.600Z,37.829,14.656,5,3.4,md,24,,,,us,usp000b9sx,2014-11-07T01:16:15.416Z,"Sicily, Italy",earthquake,,,,,reviewed,rom,rom
+2002-08-13T00:03:35.200Z,37.808,14.632,2.9,2.5,md,7,,,,us,usp000b9sq,2014-11-07T01:16:15.394Z,"Sicily, Italy",earthquake,,,,,reviewed,rom,rom
+2002-07-29T01:54:17.100Z,38.136,15.159,22.4,2.6,md,4,,,,us,usp000b8yt,2014-11-07T01:16:07.418Z,"Sicily, Italy",earthquake,,,,,reviewed,rom,rom
+2002-07-09T23:15:36.700Z,37.571,15.196,5,2.8,md,7,,,,us,usp000b7uf,2014-11-07T01:16:02.235Z,"Sicily, Italy",earthquake,,,,,reviewed,rom,rom
+2002-07-09T04:46:07.800Z,37.598,15.055,5,3,md,12,,,,us,usp000b7sr,2014-11-07T01:16:02.040Z,"Sicily, Italy",earthquake,,,,,reviewed,rom,rom
+2002-07-09T01:32:16.000Z,37.958,14.662,9.4,2.8,md,16,,,,us,usp000b7s9,2014-11-07T01:16:01.988Z,"Sicily, Italy",earthquake,,,,,reviewed,rom,rom
+2002-07-07T23:37:40.500Z,37.606,15.088,5,2.7,md,8,,,,us,usp000b7q7,2014-11-07T01:16:01.723Z,"Sicily, Italy",earthquake,,,,,reviewed,rom,rom
+2002-06-22T14:34:50.220Z,38.119,14.872,154.5,3.2,md,21,,,0.8,us,usp000b6qs,2014-11-07T01:15:52.611Z,"Sicily, Italy",earthquake,,5.2,,,reviewed,us,rom
+2002-06-15T00:41:41.400Z,37.653,15.075,5,2.5,md,6,,,,us,usp000b66c,2014-11-07T01:15:50.104Z,"Sicily, Italy",earthquake,,,,,reviewed,rom,rom
+2002-06-13T15:06:25.300Z,37.735,15.002,5,2.5,md,9,,,,us,usp000b63b,2014-11-07T01:15:49.656Z,"Sicily, Italy",earthquake,,,,,reviewed,rom,rom
+2002-06-03T00:17:23.900Z,37.915,14.609,11.6,2.8,md,17,,,,us,usp000b5ew,2014-11-07T01:15:45.301Z,"Sicily, Italy",earthquake,,,,,reviewed,rom,rom

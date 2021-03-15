@@ -1,0 +1,290 @@
+{
+   "type": "FeatureCollection",
+   "features": [
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 15.004,37.734 ]
+    },
+    "properties": {
+    "Name":"Etna",
+    "Year":2002,
+    "Month":8,
+    "Day":28,
+    "Eruption_Date":"8/28/2002",
+    "VEI":3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 127.325,0.8 ]
+    },
+    "properties": {
+    "Name":"Gamala",
+    "Year":2011,
+    "Month":12,
+    "Day":27,
+    "Eruption_Date":"12/27/2011",
+    "VEI":3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -17.33,64.42 ]
+    },
+    "properties": {
+    "Name":"Grimsvotn",
+    "Year":1996,
+    "Month":9,
+    "Day":30,
+    "Eruption_Date":"9/30/1996",
+    "VEI":3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -72.965,-45.9 ]
+    },
+    "properties": {
+    "Name":"Hudson",
+    "Year":1991,
+    "Month":8,
+    "Day":8,
+    "Eruption_Date":"8/8/1991",
+    "VEI":3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -155.292,19.425 ]
+    },
+    "properties": {
+    "Name":"Kilauea",
+    "Year":2000,
+    "Month":11,
+    "Day":3,
+    "Eruption_Date":"11/3/2000",
+    "VEI":0
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 139.53,34.08 ]
+    },
+    "properties": {
+    "Name":"Miyake_Jima",
+    "Year":2000,
+    "Month":6,
+    "Day":27,
+    "Eruption_Date":"6/27/2000",
+    "VEI":0
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 41.7,13.37 ]
+    },
+    "properties": {
+    "Name":"Nabro",
+    "Year":2011,
+    "Month":6,
+    "Day":22,
+    "Eruption_Date":"6/22/2011",
+    "VEI":3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 137.48,35.9 ]
+    },
+    "properties": {
+    "Name":"On_Take",
+    "Year":2014,
+    "Month":9,
+    "Day":27,
+    "Eruption_Date":"9/27/2014",
+    "VEI":3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.708,-8.32 ]
+    },
+    "properties": {
+    "Name":"Paluweh",
+    "Year":2013,
+    "Month":8,
+    "Day":10,
+    "Eruption_Date":"8/10/2013",
+    "VEI":3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.35,15.13 ]
+    },
+    "properties": {
+    "Name":"Pinatubo",
+    "Year":1991,
+    "Month":6,
+    "Day":15,
+    "Eruption_Date":"6/15/1991",
+    "VEI":6
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -72.1119,-40.5836 ]
+    },
+    "properties": {
+    "Name":"Puyehue",
+    "Year":2011,
+    "Month":6,
+    "Day":4,
+    "Eruption_Date":"6/4/2011",
+    "VEI":4
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 152.203,-4.271 ]
+    },
+    "properties": {
+    "Name":"Rabaul",
+    "Year":1994,
+    "Month":9,
+    "Day":19,
+    "Eruption_Date":"9/19/1994",
+    "VEI":3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.47,-8.42 ]
+    },
+    "properties": {
+    "Name":"Rinjani",
+    "Year":1994,
+    "Month":11,
+    "Day":3,
+    "Eruption_Date":"11/3/1994",
+    "VEI":3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.1856,46.1987 ]
+    },
+    "properties": {
+    "Name":"SaintHelens",
+    "Year":1980,
+    "Month":5,
+    "Day":18,
+    "Eruption_Date":"5/18/1980",
+    "VEI":5
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -62.18,16.72 ]
+    },
+    "properties": {
+    "Name":"SoufriereHills",
+    "Year":2003,
+    "Month":7,
+    "Day":12,
+    "Eruption_Date":"7/12/2003",
+    "VEI":3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -152.2498,61.3005 ]
+    },
+    "properties": {
+    "Name":"Spurr",
+    "Year":1992,
+    "Month":9,
+    "Day":17,
+    "Eruption_Date":"9/17/1992",
+    "VEI":4
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 15.2158,38.7912 ]
+    },
+    "properties": {
+    "Name":"Strombili",
+    "Year":2001,
+    "Month":10,
+    "Day":20,
+    "Eruption_Date":"10/20/2001",
+    "VEI":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 177.1845,-37.5218 ]
+    },
+    "properties": {
+    "Name":"White_Island",
+    "Year":2019,
+    "Month":12,
+    "Day":9,
+    "Eruption_Date":"12/9/2019",
+    "VEI":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -175.5,52.18 ]
+    },
+    "properties": {
+    "Name":"Kasatochi",
+    "Year":2008,
+    "Month":8,
+    "Day":8,
+    "Eruption_Date":"8/8/2008",
+    "VEI":3
+    }
+  }
+]
+}

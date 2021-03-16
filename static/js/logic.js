@@ -1,39 +1,3 @@
-
-// Map
-var osmLink = '<a href="http://openstreetmap.org">OpenStreetMap</a>';
-var osmURL = 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
-var osmAttrib = '&copy; ' + osmLink;
-var osmMap = L.tileLayer(osmURL, {attribution: osmAttrib});
-
-//Carto tiles attribution and URL
-var cartoLink = '<a href="http://cartodb.com/attributions">CartoDB</a>';
-var cartoURL = 'http://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}.png';
-var cartoAttrib = '&copy; ' + osmLink + ' &copy; ' + cartoLink;
-
-//Elevation tiles attribution and URL
-var ElevationLink = '<a href="https://www.openstreetmap.org/copyright">Elevation</a>';
-var ElevationURL = 'https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png';
-var ElevationAttrib = '&copy; ' + ElevationLink;
-
-//Creation of map tiles
-var ElevationMap = L.tileLayer(ElevationURL, {attribution: ElevationAttrib});
-var osmMap = L.tileLayer(osmURL, {attribution: osmAttrib});
-var cartoMap = L.tileLayer(cartoURL, {attribution: cartoAttrib});
-
-var map = L.map('map',{
-	layers: [osmMap]
-}).setView([33.12263277479126, -13.219673178958523], 2);
-
-//Base layers definition and addition
-var baseLayers = {
-	"Light Mode": osmMap,
-	"Dark Mode": cartoMap,
-	//"Elevation": ElevationMap
-};
-
-//Add baseLayers to map as control layers
-L.control.layers(baseLayers).addTo(map);
-
 // Store our API endpoint inside queryUrl
 var queryUrl = "data/modeled_quakes.geojson"
 var queryPlatesUrl = "https://raw.githubusercontent.com/fraxen/tectonicplates/master/GeoJSON/PB2002_boundaries.json"

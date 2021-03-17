@@ -1,5 +1,5 @@
 // Store our API endpoint inside queryUrl
-var queryUrl = "data/modeled_quakes.geojson"
+var queryUrl = "Data/modeled_quakes.geojson"
 var queryPlatesUrl = "https://raw.githubusercontent.com/fraxen/tectonicplates/master/GeoJSON/PB2002_boundaries.json"
 var queryeruptions= "data/Eruptions_List.geojson";
 // Grap data with d3 from queryURL

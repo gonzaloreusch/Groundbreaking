@@ -79,7 +79,8 @@ h1 {
 .legend {
 	color: rgb(250 200 100);
     background-color: rgba(0,0,0,.75);
-    padding: 0px 5px;
+    padding: 0px 7px;
+	border-radius: 10px;
 }
 
 #visview {

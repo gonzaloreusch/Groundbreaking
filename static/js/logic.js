@@ -135,6 +135,18 @@ function createMap(earthquakes) {
     layers: [satellitemap, earthquakes,tectonicplates,eruptions]
   });
 
+
+  var volcanoIcon = L.icon({
+    iconUrl: 'icons/volcano.png',
+    //shadowUrl: 'leaf-shadow.png',
+    iconSize:     [25, 25], // size of the icon
+    //shadowSize:   [50, 64], // size of the shadow
+    //iconAnchor:   [22, 94], // point of the icon which will correspond to marker's location
+    //shadowAnchor: [4, 62],  // the same for the shadow
+    popupAnchor:  [0, -30] // point from which the popup should open relative to the iconAnchor
+  });
+
+
   // Create a layer control
   // Pass in our baseMaps and overlayMaps
   // Add the layer control to the map
@@ -177,8 +189,9 @@ function createMap(earthquakes) {
       d3.json(queryeruptions, function(eruptionData) {
         // Adding  geoJSON data, along with style detail to the tectonicplates layer.
         L.geoJson(eruptionData, {
-          color: "red",
-          weight: 2
+          pointToLayer: function(feature,latlng){
+            return L.marker(latlng,{icon: volcanoIcon});
+          }
         })
         .addTo(eruptions);
   

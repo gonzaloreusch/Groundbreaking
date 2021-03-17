@@ -129,10 +129,10 @@ function createMap(earthquakes) {
   // Create our map, giving it the streetmap and earthquakes layers to display on load
   var myMap = L.map("map", {
     center: [
-      21.127957, -17.411427
+      46.199420, -122.188293
     ],
-    zoom: 2,
-    layers: [satellitemap, earthquakes,tectonicplates,eruptions]
+    zoom: 10,
+    layers: [ satellitemap,earthquakes,tectonicplates,eruptions]
   });
 
 
@@ -146,7 +146,6 @@ function createMap(earthquakes) {
     popupAnchor:  [0, -30] // point from which the popup should open relative to the iconAnchor
   });
 
-
   // Create a layer control
   // Pass in our baseMaps and overlayMaps
   // Add the layer control to the map
@@ -155,21 +154,18 @@ function createMap(earthquakes) {
   }).addTo(myMap);
 
   //setup legend
-  var legend = L.control( {position: "bottomright"});
-  
-  legend.onAdd = function(){
 
-    var div = L.DomUtil.create("div","info legend");
-    var colorScales = [-10,10,30,50,70,90];
-    var colors = ["#7FFFD4","#FFEBCD","#7FFF00","#D2691E", "#FF7F50","#DC143C"];
-
-    for (var i = 0; i < colorScales.length; i++) {
-      div.innerHTML += "<i style='background: " + colors[i] + "'></i> "
-        + colorScales[i] + (colorScales[i + 1] ? "&ndash;" + colorScales[i + 1] + "<br>" : "+");
-    }
-    console.log(div);
-    return div;
-  };
+  var legend = L.control({position: 'topleft'});
+      legend.onAdd = function (map) {
+          var div = L.DomUtil.create('div', 'info legend'),
+              grades = ["All earthquakes within 50 km radius from eruption site"];
+          for (var i = 0; i < grades.length; i++) {
+              div.innerHTML =
+                  '<i style="background:' + '"></i> ' +
+                  grades[i] + (grades[i + 1] ? '&ndash;' + grades[i + 1] + '<br>' : '');
+          }
+          return div;
+};
 
   //add legend to myMap
   legend.addTo(myMap);
@@ -192,17 +188,15 @@ function createMap(earthquakes) {
           pointToLayer: function(feature,latlng){
             var marker = L.marker(latlng,{icon:volcanoIcon})
             marker.bindPopup(feature.properties.Name + '<br/>' +"VEI: " +  feature.properties.VEI);             
-
             marker.on('mouseover', function(e){
             marker.openPopup();
             
+            L.marker([-53.677343, -68.631828], {icon: waldoIcon})
              });
                 return marker;
               }
         })
-        //     return L.marker(latlng,{icon: volcanoIcon});
-        //   }
-        // })
+
         .addTo(eruptions);
   
         // Then add the tectonicplates layer to the map.
@@ -211,3 +205,17 @@ function createMap(earthquakes) {
   
 }
 
+
+
+
+
+// var waldoIcon = L.icon({
+//   iconUrl: 'icons/waldo.jpg',
+//   //shadowUrl: 'leaf-shadow.png',
+//   iconSize:     [10, 10], // size of the icon
+//   //shadowSize:   [50, 64], // size of the shadow
+//   //iconAnchor:   [22, 94], // point of the icon which will correspond to marker's location
+//   //shadowAnchor: [4, 62],  // the same for the shadow
+//   popupAnchor:  [0, -30] // point from which the popup should open relative to the iconAnchor
+// });
+// L.marker([-53.677343, -68.631828], {icon: waldoIcon}).addTo(map);

@@ -28,8 +28,8 @@ function createFeatures(earthquakeData,platesData,eruptionData) {
   // Define a function we want to run once for each feature in the features array
   // Give each feature a popup describing the place and time of the earthquake
   function onEachFeature(feature, layer) {
-    layer.bindPopup("<h3>" + feature.properties.place +", Magnitude:" +(feature.properties.mag)
-    +", Depth:" + (feature.geometry.coordinates[2])+
+    layer.bindPopup("<h3>" +"<br>Magnitud:" +  feature.properties.mag
+     + "<br>Depth:" +  feature.properties.depth +
       "</h3><hr><p>" + new Date(feature.properties.time) + "</p>");
   }
 
@@ -48,7 +48,7 @@ function createFeatures(earthquakeData,platesData,eruptionData) {
       case depth > 50: return "#D2691E";
       case depth > 30: return "#7FFF00";
       case depth > 10: return "#FFEBCD";
-      default: return "#7FFFD4";
+      default: return "rgb(250 200 100)";
     }
   }
 
@@ -129,10 +129,21 @@ function createMap(earthquakes) {
   // Create our map, giving it the streetmap and earthquakes layers to display on load
   var myMap = L.map("map", {
     center: [
-      21.127957, -17.411427
+      46.199420, -122.188293
     ],
-    zoom: 2,
-    layers: [satellitemap, earthquakes,tectonicplates,eruptions]
+    zoom: 10,
+    layers: [ satellitemap,earthquakes,tectonicplates,eruptions]
+  });
+
+
+  var volcanoIcon = L.icon({
+    iconUrl: 'icons/volcano.png',
+    //shadowUrl: 'leaf-shadow.png',
+    iconSize:     [25, 25], // size of the icon
+    //shadowSize:   [50, 64], // size of the shadow
+    //iconAnchor:   [22, 94], // point of the icon which will correspond to marker's location
+    //shadowAnchor: [4, 62],  // the same for the shadow
+    popupAnchor:  [0, -30] // point from which the popup should open relative to the iconAnchor
   });
 
   // Create a layer control
@@ -143,21 +154,18 @@ function createMap(earthquakes) {
   }).addTo(myMap);
 
   //setup legend
-  var legend = L.control( {position: "bottomright"});
-  
-  legend.onAdd = function(){
 
-    var div = L.DomUtil.create("div","info legend");
-    var colorScales = [-10,10,30,50,70,90];
-    var colors = ["#7FFFD4","#FFEBCD","#7FFF00","#D2691E", "#FF7F50","#DC143C"];
-
-    for (var i = 0; i < colorScales.length; i++) {
-      div.innerHTML += "<i style='background: " + colors[i] + "'></i> "
-        + colorScales[i] + (colorScales[i + 1] ? "&ndash;" + colorScales[i + 1] + "<br>" : "+");
-    }
-    console.log(div);
-    return div;
-  };
+  var legend = L.control({position: 'topleft'});
+      legend.onAdd = function (map) {
+          var div = L.DomUtil.create('div', 'info legend'),
+              grades = ["All earthquakes within 50 km radius from eruption site"];
+          for (var i = 0; i < grades.length; i++) {
+              div.innerHTML =
+                  '<i style="background:' + '"></i> ' +
+                  grades[i] + (grades[i + 1] ? '&ndash;' + grades[i + 1] + '<br>' : '');
+          }
+          return div;
+};
 
   //add legend to myMap
   legend.addTo(myMap);
@@ -177,9 +185,18 @@ function createMap(earthquakes) {
       d3.json(queryeruptions, function(eruptionData) {
         // Adding  geoJSON data, along with style detail to the tectonicplates layer.
         L.geoJson(eruptionData, {
-          color: "red",
-          weight: 2
+          pointToLayer: function(feature,latlng){
+            var marker = L.marker(latlng,{icon:volcanoIcon})
+            marker.bindPopup(feature.properties.Name + '<br/>' +"VEI: " +  feature.properties.VEI);             
+            marker.on('mouseover', function(e){
+            marker.openPopup();
+            
+            L.marker([-53.677343, -68.631828], {icon: waldoIcon})
+             });
+                return marker;
+              }
         })
+
         .addTo(eruptions);
   
         // Then add the tectonicplates layer to the map.
@@ -188,3 +205,17 @@ function createMap(earthquakes) {
   
 }
 
+
+
+
+
+// var waldoIcon = L.icon({
+//   iconUrl: 'icons/waldo.jpg',
+//   //shadowUrl: 'leaf-shadow.png',
+//   iconSize:     [10, 10], // size of the icon
+//   //shadowSize:   [50, 64], // size of the shadow
+//   //iconAnchor:   [22, 94], // point of the icon which will correspond to marker's location
+//   //shadowAnchor: [4, 62],  // the same for the shadow
+//   popupAnchor:  [0, -30] // point from which the popup should open relative to the iconAnchor
+// });
+// L.marker([-53.677343, -68.631828], {icon: waldoIcon}).addTo(map);

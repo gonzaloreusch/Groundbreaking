@@ -1,4 +1,4 @@
-/* @font-face {
+@font-face {
 	font-family: 'infected';
 	src: url('../../fonts/infected.ttf')
 }
@@ -6,7 +6,7 @@
 @font-face {
 	font-family: 'breakit';
 	src: url('../../fonts/break it.ttf')
-} */
+}
 
 html {
 	width: 100%;
@@ -26,17 +26,17 @@ body {
 	height: 75px;
 	width: 100%;
 	margin: 0px;
-	text-shadow: 0 0 2px #fff, 0 0 4px #fff, 0 0 6px #f9fc06, 0 0 8px #fe8800, 0 0 15px #fe5923, 0 0 20px #e4522e, 0 0 35px #e23429;
+	text-shadow: 0 0 1px #fff, 0 0 2px #fff, 0 0 4px #f9fc06, 0 0 6px #fe8800, 0 0 8px #fe5923, 0 0 15px #e4522e, 0 0 20px #e23429
 
 }
 
 h1 {
 	text-align: center;
 	vertical-align: middle;
-	font-family: fantasy;
-	font-size: 38pt;
-	color: rgba(0, 40, 35, 1);
-	font-weight: normal;
+	font-family: 'breakit';
+	font-size: 40pt;
+	color: rgba(0, 25, 60, 1);
+	font-weight: lighter;
 }
 
 #navbar {
@@ -69,6 +69,7 @@ h1 {
 	height: calc(100% - 130px);
 	background-color: rgba(90, 90, 110, .5);
 	padding: 10px;
+	overflow: auto;
 }
 
 #mapview {
@@ -80,19 +81,66 @@ h1 {
 	height: 100%;
 }
 
+.legend {
+	color: rgb(250 200 100);
+    background-color: rgba(0,0,0,.75);
+    padding: 0px 5px;
+}
+
 #visview {
 	padding: 5px;
 	font-size: 0px;
 	width: calc(100% - 10px);
 	height: calc(100% - 120px);
+	text-align: center;
 }
 
 .vis {
 	display: inline-block;
 	padding: 5px;
-	width: 650px; /*calc(50% - 20px); */
-	height: calc(50% - 20px);
+	width: calc(50% - 20px); 
+	height: auto;
 	margin: 5px;
-
 	background-color: rgba(0, 0, 0, .5);
+}
+
+.ml {
+	padding: 0px;
+}
+
+#datatable {
+	border-style: solid;
+	border-color: rgba(90, 90, 110, 1);
+	color: rgb(250, 200, 100);
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	text-align: left;
+	border-collapse: collapse;
+	background-color: rgba(0, 0, 0, .35);
+}
+
+td {
+	border-style: solid;
+	border-color: rgba(90, 90, 110, 1);
+	border-width: 0px 1px;
+	padding: 4px;
+}
+
+th {
+	font-weight: bold;
+	font-size: 10pt;
+	border-style: solid;
+	border-color: rgba(90, 90, 110, 1);
+	border-width: 3px 1px;
+	padding: 4px
+}
+
+/* Sliders */
+
+::-webkit-scrollbar {
+	background-color: rgba(90, 90, 110, .0);
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: rgba(90, 90, 110, 1);
 }

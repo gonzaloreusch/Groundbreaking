@@ -48,7 +48,7 @@ function createFeatures(earthquakeData,platesData,eruptionData) {
       case depth > 50: return "#D2691E";
       case depth > 30: return "#7FFF00";
       case depth > 10: return "#FFEBCD";
-      default: return "#7FFFD4";
+      default: return "rgb(250 200 100)";
     }
   }
 

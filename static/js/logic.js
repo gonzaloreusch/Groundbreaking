@@ -28,8 +28,8 @@ function createFeatures(earthquakeData,platesData,eruptionData) {
   // Define a function we want to run once for each feature in the features array
   // Give each feature a popup describing the place and time of the earthquake
   function onEachFeature(feature, layer) {
-    layer.bindPopup("<h3>" + feature.properties.place +", Magnitude:" +(feature.properties.mag)
-    +", Depth:" + (feature.geometry.coordinates[2])+
+    layer.bindPopup("<h3>" +"<br>Magnitud:" +  feature.properties.mag
+     + "<br>Depth:" +  feature.properties.depth +
       "</h3><hr><p>" + new Date(feature.properties.time) + "</p>");
   }
 
@@ -190,9 +190,19 @@ function createMap(earthquakes) {
         // Adding  geoJSON data, along with style detail to the tectonicplates layer.
         L.geoJson(eruptionData, {
           pointToLayer: function(feature,latlng){
-            return L.marker(latlng,{icon: volcanoIcon});
-          }
+            var marker = L.marker(latlng,{icon:volcanoIcon})
+            marker.bindPopup(feature.properties.Name + '<br/>' +"VEI: " +  feature.properties.VEI);             
+
+            marker.on('mouseover', function(e){
+            marker.openPopup();
+            
+             });
+                return marker;
+              }
         })
+        //     return L.marker(latlng,{icon: volcanoIcon});
+        //   }
+        // })
         .addTo(eruptions);
   
         // Then add the tectonicplates layer to the map.

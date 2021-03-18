@@ -37,6 +37,7 @@ h1 {
 #navbar {
 	width: 100%;
 	height: 35px;
+	margin: 0px 200px;
 }
 
 .navbutt {
@@ -60,11 +61,12 @@ h1 {
 
 .viewer {
 	display: none;
-	width: calc(100% - 20px);
+	width: calc(100% - 420px);
 	height: calc(100% - 130px);
 	background-color: rgba(90, 90, 110, .5);
 	padding: 10px;
 	overflow: auto;
+	margin: 0px 200px;
 }
 
 #mapview {
@@ -86,7 +88,6 @@ h1 {
 #visview {
 	padding: 5px;
 	font-size: 0px;
-	width: calc(100% - 10px);
 	height: calc(100% - 120px);
 	text-align: center;
 }

@@ -1,7 +1,7 @@
 // Store our API endpoint inside queryUrl
 var queryUrl = "Data/modeled_quakes.geojson"
 var queryPlatesUrl = "https://raw.githubusercontent.com/fraxen/tectonicplates/master/GeoJSON/PB2002_boundaries.json"
-var queryeruptions= "data/Eruptions_List.geojson";
+var queryeruptions= "Data/Eruptions_List.geojson";
 // Grap data with d3 from queryURL
 d3.json(queryUrl, function(data) {
   // Once we get a response, send the data.features object to the createFeatures function
